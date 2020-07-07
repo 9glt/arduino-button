@@ -1,9 +1,3 @@
-# arduino-button
-check if pin state changed 
-
-
-example usage
-```cpp
 #include "Button.h"
 
 Button button1(7, LOW); // LOW to use INPUT_PULLUP, HIGH - FLoating(for now)
@@ -19,4 +13,3 @@ void loop() {
         Serial.println("CLICK!");
     }
 }
-```
